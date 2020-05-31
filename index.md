@@ -10,7 +10,7 @@ layout: page
   	<img src="/assets/images/myself_2.jpg" alt="drawing" width="300"/>
   </div>
   <div class="rightpane">
-  Hello! I'm a senior at UC Berkeley majoring in Physics, Math, and Molecular & Cell Biology. My research interest is in theoretical neuroscience. Currently, I work with Bruno Olshausen in the Redwood Center on developing new computational approaches to visual processing.
+  Hello! I'm a senior at UC Berkeley majoring in Physics, Math, and Molecular & Cell Biology. My research interest is in theoretical neuroscience. Currently, I work with Bruno Olshausen in the Redwood Center on computational vision, but I will be doing my PhD in Neurobiology and Behavior at Columbia University starting Fall 2020.
   <br>
   <a href="/assets/pdf/CV_sp20_1.pdf" style="text-decoration: none">CV</a>
   </div>

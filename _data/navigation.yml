@@ -4,5 +4,7 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Research"
     url: /research/
+  - title: "Simply Put"
+    url: /simply_put/
   - title: "Miscellaneous"
     url: /miscellaneous/
