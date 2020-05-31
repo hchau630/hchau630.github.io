@@ -1,0 +1,458 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.17.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Abstract Algebra and Real Analysis Self-Study Guide - Ho Yin Chau</title>
+<meta name="description" content="">
+
+
+  <meta name="author" content="Ho Yin Chau">
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Ho Yin Chau">
+<meta property="og:title" content="Abstract Algebra and Real Analysis Self-Study Guide">
+<meta property="og:url" content="http://localhost:4000/study_guide/">
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/study_guide/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Ho Yin Chau",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Ho Yin Chau Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--page">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Ho Yin Chau
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/research/" >Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/miscellaneous/" >Miscellaneous</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Abstract Algebra and Real Analysis Self-Study Guide</h1>
+    
+    <p>This is a self-study guide for introductory upper-division mathematics that I am currently compiling for my friend.</p>
+
+<p>Textbooks:</p>
+<ul>
+  <li>Fraleigh – A First Course in Abstract Algebra, 7th edition</li>
+  <li>Rudin - Principles of Mathematical Analysis, 3rd edition</li>
+</ul>
+
+<p>How to use this study guide:</p>
+
+<p>Each lesson covers the material of around one week of lecture for a typical course. The algebra sequence is easier than the analysis sequence. Under each lesson, the chapters covered are given, and for each chapter the most relevant reading material is given. 5.14, for example, means the reader should understand Definition/Theorem/Corollary 5.14; “Roots of Unity”, for example, means the reader should understand the section “Roots of Unity” in the book. The suggested reading material aims to highlight the most important parts of the text so that a lazy person can read as few as possible while being able to grasp the main takeaways of the chapter. Doing the exercises, like all math courses, are important, so the reader should aim to do most, if not all, of them. For the abstract algebra section, I selected exercises that are more proof-based than computational as this study guide is designed for a person who has a rigorous background in proof-based mathematics.</p>
+
+<p>Lessons or sections with an asterisk * means that while the topic is important in its own right, it is not essential to later discussion, and thus may be skipped if the reader inclines to do so. The algebra and analysis sequences can be studied independently.</p>
+
+<h2 id="abstract-algebra">Abstract Algebra</h2>
+<body>
+<button type="button" class="collapsible">Lesson 1: Introduction to Group Theory</button>
+<div class="content">
+    <ul>
+      <li>Chapter 0: Sets and Relations
+        <ol>
+          <li>0.7 - 0.9</li>
+          <li>Cardinality</li>
+          <li>0.16 - 0.18, 0.20, 0.22
+            <blockquote>
+              <p>Exercises: 18, 19, 29<br />
+Extra exercise: Define a relation ~ on \(\mathbb{Z}\) by x ~ y iff x = y + n for n in \(\mathbb{Z}\). Show that ~ is an equivalence relation, and that there is a bijection between \(\mathbb{Z}\)/~, the set of all equivalence classes of \(\mathbb{Z}\) arising from ~, and the circle \(S^1\)</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 1: Introduction and Examples
+        <ol>
+          <li>Roots of Unity</li>
+        </ol>
+      </li>
+      <li>Chapter 2: Binary Operations
+        <ol>
+          <li>2.1, 2.4</li>
+          <li>Tables
+            <blockquote>
+              <p>Exercises: 37</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 3: Isomorphic Binary Structures
+        <ol>
+          <li>Definition of Binary Structures</li>
+          <li>3.7</li>
+          <li>How to Show that Binary Structures are Isomorphic
+            <blockquote>
+              <p>Exercises: 17</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 4: Groups
+        <ol>
+          <li>4.1, 4.2, 4.3, 4.6, 4.8, 4.10, 4.12, 4.13, the part about GL(n, R)</li>
+          <li>4.15 - 4.18, and the remarks following 4.18
+            <blockquote>
+              <p>Exercises: 2, 9, 20, 31, 32, 41</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+<button type="button" class="collapsible">Lesson 2: Subgroups, Cyclic Groups, and Generating Sets</button>
+<div class="content">
+    <ul>
+      <li>Chapter 5: Subgroups
+        <ol>
+          <li>Notation and Terminology</li>
+          <li>5.3 - 5.5, 5.9 (and the subgroup diagram under it), 5.14, 5.16</li>
+          <li>5.17 - 5.21, 5.23
+            <blockquote>
+              <p>Exercises: 11, 12, 13 (this is the orthogonal group, \(O(n)\). Prove or disprove that this is same as the one in exercise 12), 45 (very useful!), 49, 52, 54</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 6: Cyclic Groups
+        <ol>
+          <li>The stuff before 6.1, 6.1, 6.3, 6.6, 6.7, 6.8</li>
+          <li>6.10, 6.14, 6.16
+            <blockquote>
+              <p>Exercises: 44, 14, 15, 45, 56</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 7: Generating Sets and Cayley Digraphs
+        <ol>
+          <li>Stuff before 7.1, 7.1, 7.3 - 7.6
+            <blockquote>
+              <p>Exercises: 19</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+<button type="button" class="collapsible">*Lesson 3: More examples of groups: Permutation Groups, Dihedral Groups, Alternating Groups, Direct Sum of Groups; Classification of Finitely Generated Abelian Groups</button>
+<div class="content">
+    <ul>
+      <li>Chapter 8: Groups of Permutations
+        <ol>
+          <li>8.3 - 8.6, stuff about dihedral group before 8.10</li>
+          <li>8.14 - 8.16
+            <blockquote>
+              <p>Exercises: 1, 46, 49, 52</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 9: Orbits, Cycles, and the Alternating Groups
+        <ol>
+          <li>9.1, 9.6, 9.8, 9.11, 9.12, 9.15 (proof 1 suffices and is far more elegant and illuminating than proof 2), 9.18, 9.20, 9.21
+            <blockquote>
+              <p>Exercises: 7, 23e, 29, 34, 36</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+      <li>Chapter 11: Direct Products and Finitely Generated Abelian Groups
+        <ol>
+          <li>11.1 - 11.10, section following 11.11</li>
+          <li>11.12 - 11.17
+            <blockquote>
+              <p>Exercises: 9, 46, 50, 51, 52, 54</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+</body>
+
+<h2 id="real-analysis">Real Analysis</h2>
+<body>
+<button type="button" class="collapsible">Lesson 1: The Real Numbers and the Least Upper Bound Property; Complex Numbers</button>
+<div class="content">
+    <ul>
+      <li>Chapter 1: The Real and Complex Number Systems
+        <ol>
+          <li>1.5 - 1.11</li>
+          <li>1.12, 1.17 (I recommend not dwelling on the field axioms too much as the algebra sequence will introduce you to fields in great detail. Moreover, for the theorems about the properties of fields, it is not too important to read through the proofs as they are not very illuminating and not central to later discussion. Verify one or two of them, if you want, to gain a feel of the field axioms)</li>
+          <li>1.19, read construction of \(\mathbb{R}\) in the appendix at the end of chapter 1, and go through a few proofs of the properties of \(\mathbb{R}\) to understand why this construction works.</li>
+          <li>1.20 - 1.21 (Again, the proofs of the theorems are not that illuminating. The main point is to understand how the least upper bound property is used in the proofs.)</li>
+          <li>1.23</li>
+          <li>1.24, 1.25, 1.32, 1.35 (Again, the proofs for the various properties of complex numbers is not that important.)</li>
+          <li>1.36 - 1.38
+            <blockquote>
+              <p>Exercises: Rudin chapter 1: 3, 5, 6, 8, 13; Enderton chapter 5: 15, 16</p>
+            </blockquote>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+<button type="button" class="collapsible">Lesson 2: Topological Spaces, Metric spaces, and Completenes</button>
+<div class="content">
+
+    <ul>
+      <li>Chapter 2</li>
+    </ul>
+    <p>&lt;/body&gt;</p>
+  </div></body>
+
+
+<style>
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.leftpane {
+    width: 48%;
+    height: 100%;
+    float: left;
+/*    background-color: rosybrown;*/
+    border-collapse: collapse;
+}
+
+.rightpane {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  float: right;
+  /*border-style: solid;*/
+/*  background-color: yellow;*/
+  border-collapse: collapse;
+}
+
+.toppane {
+  width: 100%;
+  height: 100px;
+  border-collapse: collapse;
+  background-color: #4da6ff;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+<script src="https://hchau630.github.io/assets/js/collapse.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2020 Ho Yin Chau. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

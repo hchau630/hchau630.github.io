@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Abstract Algebra and Real Analysis Self-Study Guide
-permalink: /stuff/
+permalink: /study_guide/
 ---
 
 This is a self-study guide for introductory upper-division mathematics that I am currently compiling for my friend. 
@@ -9,11 +9,10 @@ This is a self-study guide for introductory upper-division mathematics that I am
 Textbooks:
 * Fraleigh – A First Course in Abstract Algebra, 7th edition
 * Rudin - Principles of Mathematical Analysis, 3rd edition
-* Enderton - Elements of Set Theory (I think it only has one edition)
 
 How to use this study guide:
 
-Each lesson covers the material of around one week of lecture for a typical course. The algebra sequence is easier than the analysis sequence. Under each lesson, the chapters of the book covered are given, and for each chapter the most relevant reading material is given. 5.14, for example, means the reader should understand Definition/Theorem/Corollary 5.14. "Roots of Unity", for example, means the reader should understand the section "Roots of Unity" in the book. The suggested reading material aims to highlight the most important parts of the text so that a lazy person can read as few as possible while being able to grasp the main takeaways of the chapter. Doing the exercises, like all math courses, are important, so the reader should aim to do most, if not all, of them. For the abstract algebra section, I selected exercises that are more proof-based than computational as this study guide is designed for a person who has a rigorous background in proof-based mathematics.
+Each lesson covers the material of around one week of lecture for a typical course. The algebra sequence is easier than the analysis sequence. Under each lesson, the chapters covered are given, and for each chapter the most relevant reading material is given. 5.14, for example, means the reader should understand Definition/Theorem/Corollary 5.14; "Roots of Unity", for example, means the reader should understand the section "Roots of Unity" in the book. The suggested reading material aims to highlight the most important parts of the text so that a lazy person can read as few as possible while being able to grasp the main takeaways of the chapter. Doing the exercises, like all math courses, are important, so the reader should aim to do most, if not all, of them. For the abstract algebra section, I selected exercises that are more proof-based than computational as this study guide is designed for a person who has a rigorous background in proof-based mathematics.
 
 Lessons or sections with an asterisk * means that while the topic is important in its own right, it is not essential to later discussion, and thus may be skipped if the reader inclines to do so. The algebra and analysis sequences can be studied independently.
 
@@ -76,16 +75,20 @@ Lessons or sections with an asterisk * means that while the topic is important i
 
 ## Real Analysis
 <body>
-<button type="button" class="collapsible">Lesson 1: Supremums, Infimums, and the Real Numbers</button>
+<button type="button" class="collapsible">Lesson 1: The Real Numbers and the Least Upper Bound Property; Complex Numbers</button>
 <div class="content" markdown="1">
 * Chapter 1: The Real and Complex Number Systems
-	1. 1.6 - 1.11
+	1. 1.5 - 1.11
 	2. 1.12, 1.17 (I recommend not dwelling on the field axioms too much as the algebra sequence will introduce you to fields in great detail. Moreover, for the theorems about the properties of fields, it is not too important to read through the proofs as they are not very illuminating and not central to later discussion. Verify one or two of them, if you want, to gain a feel of the field axioms)
-	3. The construction of the real numbers in Enderton p. 113 - 120. Feel free to skim over the proofs of the properties. Note that the symbol \\(\cup A\\) in the text is shorthand for \\(\cup_{x \in A} x\\). This is the Dedekind cut construction of the real numbers. Another construction, via Cauchy sequences, is far more intuitive, but requires familiarity with the concept of a metric space, which is discussed in chapter 2. 
-	4. 1.19 - 1.21 (Again, the proofs of the theorems are not that illuminating. The main point is to understand how the least upper bound property is used in the proofs.)
+	3. 1.19, read construction of \\(\mathbb{R}\\) in the appendix at the end of chapter 1, and go through a few proofs of the properties of \\(\mathbb{R}\\) to understand why this construction works.
+	4. 1.20 - 1.21 (Again, the proofs of the theorems are not that illuminating. The main point is to understand how the least upper bound property is used in the proofs.)
 	5. 1.23
 	6. 1.24, 1.25, 1.32, 1.35 (Again, the proofs for the various properties of complex numbers is not that important.)
 	7. 1.36 - 1.38
 	>Exercises: Rudin chapter 1: 3, 5, 6, 8, 13; Enderton chapter 5: 15, 16
 </div>
+<button type="button" class="collapsible">Lesson 2: Topological Spaces, Metric spaces, and Completenes</button>
+<div class="content" markdown="1">
+
+* Chapter 2
 </body>
